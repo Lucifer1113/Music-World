@@ -1,0 +1,16 @@
+.header{
+    height: 80vh;
+    background-color: #35d4ac;
+    display: flex;
+    color: white;
+    
+}
+.left-part{
+    /* background-color: honeydew; */
+    width: 50%;
+
+}
+.right-part{
+    /* background-color: hotpink; */
+    width: 50%;
+}
