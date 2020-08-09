@@ -6,8 +6,7 @@ const LoginBtn = () => {
 
     let [ToggleSpin,setToggleSpin] = useState(false)
     const handleOnLogin = () => {
-        // alert('hi');
-        setToggleSpin = true
+        setToggleSpin(true) 
     }
 
     return (
