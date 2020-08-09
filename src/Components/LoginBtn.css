@@ -1,11 +1,14 @@
 .login-btn{
-    width: 280px;
+    width: 300px;
     height: 50px;
+    font-family: 'Lato', sans-serif;
     background-color: #4c69ba;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 10px;
     font-size: 20px;
     font-weight: bolder;
     color: white;
+    cursor: pointer;
 }

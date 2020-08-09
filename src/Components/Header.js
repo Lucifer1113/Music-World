@@ -2,6 +2,8 @@ import React from 'react';
 import './Header.css';
 import LoginBtn from './LoginBtn';
 
+
+
 const Header = () => {
 
     return (
@@ -13,9 +15,8 @@ const Header = () => {
                 <p>Now live in private beta for iOS and Android. Login above for and early invite.</p>
             </div>
             <div className='right-part'>
-                <img src="" alt="mobile image" />
+                <img src={require('../Images/mobile.png')} style={{width:550,height:720}} alt="Mobile" />
             </div>
-
         </div>
     )
 }
