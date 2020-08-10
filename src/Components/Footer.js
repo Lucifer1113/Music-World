@@ -31,9 +31,10 @@ const Footer = () => {
         </div>
         <div className="company-details-section-list">
           <p>SOCIAL MEDIA</p>
-          <ion-icon className='social-media' name="logo-instagram"></ion-icon>
-          <ion-icon className='social-media' name="logo-linkedin"></ion-icon>
-          <ion-icon className='social-media' name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-instagram"></ion-icon>
+          <ion-icon name="logo-linkedin"></ion-icon>
+          <ion-icon name="logo-skype"></ion-icon>
+          <ion-icon name="logo-youtube"></ion-icon>
         </div>
       </div>
       <div className="legal-section">
