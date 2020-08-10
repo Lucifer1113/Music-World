@@ -1,7 +1,9 @@
 import React, {Component} from 'react';   
-// import Card from "./components/id-card/card";
 import Nav from './Components/Nav';
 import Header from './Components/Header';
+import Container from './Components/Container';
+import Container2 from './Components/Container2';
+import Footer from './Components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -11,6 +13,9 @@ class App extends Component {
       <div>
         <Nav/>
       <Header/>
+      <Container/>
+      <Container2/>
+      <Footer/>
       </div>
       
     )

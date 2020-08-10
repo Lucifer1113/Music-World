@@ -1,0 +1,22 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    /* background-color: red; */
+}
+.body > h1{
+    font-size: 45px;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    /* padding: 30px; */
+}
+.card-box{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 80%;
+    margin-top: 50px;
+    /* background-color: pink; */
+    justify-content: space-around;
+}
