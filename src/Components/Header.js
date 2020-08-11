@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import LoginBtn from './LoginBtn';
+import Login from '../Components/Login/LoginButton';
 
 
 
@@ -10,7 +10,7 @@ const Header = () => {
         <div className='header'>
             <div className='left-part'>
                <h1 className="tag-line">Play millions of songs and podcasts, for free..</h1>
-                <LoginBtn />
+                <Login/>
                 
             </div>
             <div className='right-part'>

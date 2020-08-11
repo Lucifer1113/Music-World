@@ -1,24 +1,26 @@
-import React, {Component} from 'react';   
-import Nav from './Components/Nav';
-import Header from './Components/Header';
-import Container from './Components/Container';
-import Container2 from './Components/Container2';
-import Footer from './Components/Footer';
-import './App.css';
+import React, { Component } from "react";
+import CoverPage from "./Components/Login/CoverPage";
+import "./App.css";
+import Home from "./Components/Home/Main";
 
 class App extends Component {
+  state = {
+    isToken: false,
+  };
 
-  render(){
-    return(
-      <div>
-      <Nav/>
-      <Header/>
-      <Container/>
-      <Container2/>
-      <Footer/>
-      </div>
-      
-    )
+  componentDidMount() {
+    this.getAuth();
+  }
+
+  getAuth = async () => {
+    const accessToken = await localStorage.getItem("token");
+    this.setState({ isToken: accessToken ? true : false });
+  };
+
+  render() {
+    const { isToken } = this.state;
+
+    return isToken ? <Home /> : <CoverPage />;
   }
 }
 
